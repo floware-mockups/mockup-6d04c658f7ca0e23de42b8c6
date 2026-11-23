@@ -62,7 +62,8 @@
           "Da chiudere"
         ]
       ],
-      "form": []
+      "form": [],
+      "chartColumn": 4
     },
     {
       "id": "pratiche",
@@ -126,7 +127,8 @@
         "Tecnico incaricato",
         "Data sopralluogo",
         "Stato"
-      ]
+      ],
+      "chartColumn": 5
     },
     {
       "id": "controlli",
@@ -253,7 +255,8 @@
         "Scadenza",
         "Esito",
         "Stato"
-      ]
+      ],
+      "chartColumn": 4
     }
   ],
   "theme": {
@@ -268,6 +271,14 @@
       "role": "cell",
       "pageId": "controlli",
       "column": "Controllo"
+    },
+    {
+      "name": "GraficiControlliPerPratica",
+      "title": "Controlli per pratica e stato",
+      "description": "Grafici a barre aggiornati dai dati della tabella, raggruppati per pratica.",
+      "role": "section",
+      "pageId": "controlli",
+      "position": "top"
     }
   ]
 }
