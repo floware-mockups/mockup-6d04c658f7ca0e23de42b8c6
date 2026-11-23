@@ -131,7 +131,7 @@
     {
       "id": "controlli",
       "title": "Documenti e procedure",
-      "description": "Segna i controlli completati e tieni d’occhio le scadenze di progetto, gara e lavori.",
+      "description": "Per ogni intervento sono registrati la verifica degli atti di gara, il controllo della documentazione progettuale e la verifica del cronoprogramma dei lavori.",
       "metrics": [],
       "columns": [
         "Pratica",
@@ -143,31 +143,108 @@
       "rows": [
         [
           "Lumo-024",
-          "Documenti di progetto completi",
+          "Verifica atti di gara",
           "18/09/2026",
-          "Manca un elaborato",
+          "Controllare completezza e coerenza degli atti",
+          "Da verificare"
+        ],
+        [
+          "Lumo-024",
+          "Controllo documentazione progettuale",
+          "19/09/2026",
+          "Verificare elaborati e quadro economico",
+          "Da verificare"
+        ],
+        [
+          "Lumo-024",
+          "Verifica cronoprogramma lavori",
+          "20/09/2026",
+          "Confrontare fasi, durate e scadenze",
+          "In istruttoria"
+        ],
+        [
+          "Vela-031",
+          "Verifica atti di gara",
+          "21/09/2026",
+          "Controllare procedura e documenti di gara",
+          "In istruttoria"
+        ],
+        [
+          "Vela-031",
+          "Controllo documentazione progettuale",
+          "22/09/2026",
+          "Verificare completezza degli elaborati",
           "Da verificare"
         ],
         [
           "Vela-031",
-          "Atti della procedura",
-          "21/09/2026",
-          "Da controllare",
+          "Verifica cronoprogramma lavori",
+          "23/09/2026",
+          "Confrontare tempi previsti e fasi operative",
           "In istruttoria"
         ],
         [
           "Nubi-017",
-          "Tempi di esecuzione lavori",
+          "Verifica atti di gara",
           "24/09/2026",
-          "Termine vicino",
+          "Controllare atti e requisiti della procedura",
+          "Da verificare"
+        ],
+        [
+          "Nubi-017",
+          "Controllo documentazione progettuale",
+          "25/09/2026",
+          "Verificare tavole, relazioni e computo",
+          "In istruttoria"
+        ],
+        [
+          "Nubi-017",
+          "Verifica cronoprogramma lavori",
+          "26/09/2026",
+          "Controllare sequenza e durata delle lavorazioni",
           "Cantiere aperto"
         ],
         [
           "Lumo-019",
-          "Chiusura della segnalazione",
+          "Verifica atti di gara",
           "26/09/2026",
-          "Intervento da confermare",
-          "Da chiudere"
+          "Verificare completezza degli atti",
+          "Da verificare"
+        ],
+        [
+          "Lumo-019",
+          "Controllo documentazione progettuale",
+          "27/09/2026",
+          "Controllare elaborati e coerenza progettuale",
+          "In istruttoria"
+        ],
+        [
+          "Lumo-019",
+          "Verifica cronoprogramma lavori",
+          "28/09/2026",
+          "Confrontare avanzamento e tempi previsti",
+          "Da verificare"
+        ],
+        [
+          "Vela-028",
+          "Verifica atti di gara",
+          "29/09/2026",
+          "Controllare atti e documenti della procedura",
+          "In istruttoria"
+        ],
+        [
+          "Vela-028",
+          "Controllo documentazione progettuale",
+          "30/09/2026",
+          "Verificare elaborati tecnici e quadro economico",
+          "Da verificare"
+        ],
+        [
+          "Vela-028",
+          "Verifica cronoprogramma lavori",
+          "01/10/2026",
+          "Verificare fasi, durate e date previste",
+          "In istruttoria"
         ]
       ],
       "form": [
@@ -182,5 +259,15 @@
   "theme": {
     "palette": "terracotta",
     "fonts": "classico"
-  }
+  },
+  "custom": [
+    {
+      "name": "CategoriaControllo",
+      "title": "Categorie dei controlli",
+      "description": "Distingue verifiche documentali e pianificazione temporale nella colonna Controllo.",
+      "role": "cell",
+      "pageId": "controlli",
+      "column": "Controllo"
+    }
+  ]
 }
