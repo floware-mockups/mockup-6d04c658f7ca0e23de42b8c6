@@ -1,0 +1,186 @@
+{
+  "title": "Controllo lavori e scadenze",
+  "description": "Tieni sotto controllo pratiche, documenti, procedure e sopralluoghi. Dati e nomi sono inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "cruscotto",
+      "title": "Cruscotto",
+      "description": "Scadenze vicine e controlli da fare.",
+      "metrics": [
+        {
+          "label": "Pratiche in istruttoria",
+          "value": "6"
+        },
+        {
+          "label": "Sopralluoghi della settimana",
+          "value": "3"
+        },
+        {
+          "label": "Cantieri aperti",
+          "value": "4"
+        },
+        {
+          "label": "Segnalazioni da chiudere",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Pratica",
+        "Tipo intervento",
+        "Scadenza",
+        "Controllo da fare",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo-024",
+          "Rifacimento strada",
+          "18/09/2026",
+          "Verificare gli atti di gara",
+          "In istruttoria"
+        ],
+        [
+          "Vela-031",
+          "Manutenzione edificio",
+          "21/09/2026",
+          "Controllare elaborati di progetto",
+          "Da verificare"
+        ],
+        [
+          "Nubi-017",
+          "Sistemazione parco",
+          "24/09/2026",
+          "Verificare termine lavori",
+          "Cantiere aperto"
+        ],
+        [
+          "Lumo-019",
+          "Rifacimento marciapiede",
+          "26/09/2026",
+          "Chiudere segnalazione",
+          "Da chiudere"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "pratiche",
+      "title": "Pratiche",
+      "description": "Cerca le pratiche, filtra per stato e aggiungi un nuovo lavoro. Per ogni pratica, controlla documenti, atti e scadenze.",
+      "metrics": [],
+      "columns": [
+        "Pratica",
+        "Tipo intervento",
+        "Indirizzo",
+        "Tecnico incaricato",
+        "Data sopralluogo",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo-024",
+          "Rifacimento strada",
+          "Via dei Tigli 14",
+          "Aria Neri",
+          "15/09/2026",
+          "In istruttoria"
+        ],
+        [
+          "Vela-031",
+          "Manutenzione edificio",
+          "Piazza delle Nuvole 3",
+          "Timo Riva",
+          "17/09/2026",
+          "Da verificare"
+        ],
+        [
+          "Nubi-017",
+          "Sistemazione parco",
+          "Viale delle Lanterne 8",
+          "Leda Mori",
+          "18/09/2026",
+          "Cantiere aperto"
+        ],
+        [
+          "Lumo-019",
+          "Rifacimento marciapiede",
+          "Via del Salice 22",
+          "Enea Valli",
+          "19/09/2026",
+          "Da chiudere"
+        ],
+        [
+          "Vela-028",
+          "Messa in sicurezza ponte",
+          "Strada delle Felci 5",
+          "Mira Soli",
+          "22/09/2026",
+          "In istruttoria"
+        ]
+      ],
+      "form": [
+        "Pratica",
+        "Tipo intervento",
+        "Indirizzo",
+        "Tecnico incaricato",
+        "Data sopralluogo",
+        "Stato"
+      ]
+    },
+    {
+      "id": "controlli",
+      "title": "Documenti e procedure",
+      "description": "Segna i controlli completati e tieni d’occhio le scadenze di progetto, gara e lavori.",
+      "metrics": [],
+      "columns": [
+        "Pratica",
+        "Controllo",
+        "Scadenza",
+        "Esito",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo-024",
+          "Documenti di progetto completi",
+          "18/09/2026",
+          "Manca un elaborato",
+          "Da verificare"
+        ],
+        [
+          "Vela-031",
+          "Atti della procedura",
+          "21/09/2026",
+          "Da controllare",
+          "In istruttoria"
+        ],
+        [
+          "Nubi-017",
+          "Tempi di esecuzione lavori",
+          "24/09/2026",
+          "Termine vicino",
+          "Cantiere aperto"
+        ],
+        [
+          "Lumo-019",
+          "Chiusura della segnalazione",
+          "26/09/2026",
+          "Intervento da confermare",
+          "Da chiudere"
+        ]
+      ],
+      "form": [
+        "Pratica",
+        "Controllo",
+        "Scadenza",
+        "Esito",
+        "Stato"
+      ]
+    }
+  ],
+  "theme": {
+    "palette": "terracotta",
+    "fonts": "classico"
+  }
+}
